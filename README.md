@@ -1,6 +1,6 @@
 # Introduction to Python
 
-<img src="../Images/qarg_bw_dark.png" alt="QUT Logo" width="500" />
+<img src="Images/qarg_bw_dark.png" alt="QUT Logo" width="500" />
 
 A self-contained introductory Python workbook for physics students with no prior programming experience. Covers data types, data acquisition and cleaning, descriptive and inferential statistics, and data visualisation across four guided practicals.
 
