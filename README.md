@@ -1,56 +1,86 @@
-# Introduction to Python
+# Introduction to Python for Astronomy
 
-<img src="Images/qarg_bw_dark.png" alt="QUT Logo" width="500" />
+<img src="Images/qarg_bw_dark.png" alt="QUT Astrophysics Research Group" width="500" />
 
-A self-contained introductory Python workbook for physics students with no prior programming experience. Covers data types, data acquisition and cleaning, descriptive and inferential statistics, and data visualisation across four guided practicals.
+A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for Honours, VRES and capstone students who haven't done SEB108, or did it a while ago and need a refresher.
 
-## Key Features
+The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project: redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS. No astrophysics background is assumed.
 
-- **No installation required**: Designed to run in Google Colab out of the box; local environments also supported
-- **Worked examples and exercises**: Each section pairs demonstration code with hands-on exercises using real datasets
-- **Real datasets**: Uses Queensland air quality monitoring data and global temperature anomaly records throughout
-- **Progressive structure**: Each part builds on the previous; completable in a day or two
+**Group leads:** Dr Michael Cowley and Dr Rossana Ruggeri  
+**Author:** Michael Cowley
 
-## Contents
+## Notebooks
 
-- `Python-Intro.ipynb` - Main workbook (four parts)
+Work through them in order. Each one is self-contained, so you can start any notebook without running the previous ones, and all the code is in the notebook itself.
 
-## Data Files
+| Part | Notebook | Topic | Time |
+|------|----------|-------|------|
+| 1 | [Python Basics](01-Python-Basics.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/01-Python-Basics.ipynb) | Variables, data types, strings, lists, dictionaries, conditions, loops, functions and errors | ~3 h |
+| 2 | NumPy and Astropy *(coming soon)* | Arrays, vectorised maths, units, constants and cosmology | ~2 h |
+| 3 | Catalogues and Data *(coming soon)* | pandas, Astropy tables, FITS files, querying archives, cleaning and cross-matching | ~3 h |
+| 4 | Plotting for Astronomy *(coming soon)* | Matplotlib, log axes, colour-magnitude diagrams, spectra and images | ~3 h |
+| 5 | Statistics and Fitting *(coming soon)* | Robust statistics, uncertainties, curve fitting and χ² | ~3 h |
+| 6 | Putting It Together *(coming soon)* | Short galaxy evolution examples | ~2 h |
 
-The following files must be in the same directory as the notebook:
+Altogether it's about a day and a half to two days of full-time work.
 
-| File | Description |
-|------|-------------|
-| `quantum_mechanics.grades` | Exam score dataset used in Parts 1 and 2 |
-| `carbonmonoxide-qld-2022.csv` | Hourly CO measurements across Queensland (2022), used in Parts 2, 3, and 4 |
-| `global_temp_anomalies.csv` | Annual global temperature anomalies relative to the 1951–1980 baseline ([NASA GISS](https://data.giss.nasa.gov/gistemp/)), used in Part 4 |
+Every notebook pairs worked examples with exercises. Most exercises have a check cell so you can confirm your answer, and every exercise has a hidden solution you can open once you've had a go.
 
-## Structure
+## Running the Notebooks
 
-| Part | Topic |
-|------|-------|
-| 1 | Introduction to Python: variables, data types, errors, and NumPy basics |
-| 2 | Data Acquisition and Preparation: importing, cleaning, and formatting data with pandas |
-| 3 | Data Analysis: descriptive statistics, t-tests, and confidence intervals |
-| 4 | Data Visualisation: pie charts, bar charts, line charts, scatter plots, histograms, and uncertainty visualisation |
+### Google Colab (recommended to start)
+
+Click an **Open in Colab** button above. Colab runs in your browser with nothing to install, and you just need a Google account.
+
+Before you start, go to *File → Save a copy in Drive*, otherwise your work won't be saved.
+
+### On your own computer
+
+Once your project starts you'll want Python set up locally. We recommend [Miniforge](https://github.com/conda-forge/miniforge), a free, lightweight installer for Python and the `conda` package manager.
+
+1. Install Miniforge by following the instructions on its page.
+2. Open a terminal (on Windows, use *Miniforge Prompt* from the Start menu) and create an environment for your work:
+
+   ```bash
+   conda create -n qarg python=3.12
+   conda activate qarg
+   ```
+
+3. Download this repository, either with *Code → Download ZIP* on GitHub or with git:
+
+   ```bash
+   git clone https://github.com/mjcowley/Python_Intro.git
+   cd Python_Intro
+   ```
+
+4. Install the packages and start JupyterLab:
+
+   ```bash
+   pip install -r requirements.txt
+   jupyter lab
+   ```
+
+Each time you come back, open a terminal and run `conda activate qarg` before `jupyter lab`.
+
+If you'd rather use an editor, [VS Code](https://code.visualstudio.com/) and [VSCodium](https://vscodium.com/) both run notebooks well. Point them at the `qarg` environment when they ask which Python to use.
+
+### Supercomputers (HPC)
+
+Some projects need more computing power than a laptop. The group has access to QUT's eResearch HPC and to Swinburne's [OzSTAR](https://supercomputing.swin.edu.au/) supercomputer. You'll find details on how to get access on the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966). Talk to your supervisor first about whether your project needs it.
 
 ## Requirements
 
-- Python 3.10+
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `scipy`
+- Python 3.10 or later
+- `numpy`, `scipy`, `pandas`, `matplotlib`, `astropy` and `astroquery`
 
-All packages are available by default in Google Colab. For local use, install via:
+Colab has most of these already, and any notebook that needs something extra installs it in its first cell. For local use, everything is listed in [`requirements.txt`](requirements.txt).
 
-```bash
-pip install numpy pandas matplotlib seaborn scipy
-```
+## Getting Help
 
-## Running the Notebook
+- Read the error message, then search it. Section 10 of Part 1 covers how.
+- Ask others in the group. Everyone has been stuck on the same things.
+- Talk to your supervisor, and check the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966) for group resources.
 
-The recommended option for students new to Python is **Google Colab** as no local installation required. Upload the notebook and data files to Google Drive, open the notebook in Colab, and run cells in order.
+## Next Steps
 
-For local use, ensure you have Python 3.10 or later and Jupyter installed before opening the notebook. [Anaconda](https://www.anaconda.com/) is the easiest way to get everything in one install.
+Once you've finished, have a look at [Astro_Code](https://github.com/mjcowley/Astro_Code) for the group's research notebooks (ZFOURGE, EAZY, UVJ diagrams, SDSS luminosity functions and SED fitting), and [Astro_Demos](https://mjcowley.github.io/astro_demos/) for interactive astrophysics demonstrations.
