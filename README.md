@@ -17,12 +17,14 @@ Work through them in order. Each one is self-contained, so you can start any not
 |------|----------|-------|------|
 | 1 | [Python Basics](01-Python-Basics.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/01-Python-Basics.ipynb) | Variables, data types, strings, lists, dictionaries, conditions, loops, functions and errors | ~3 h |
 | 2 | [NumPy and Astropy](02-NumPy-and-Astropy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/02-NumPy-and-Astropy.ipynb) | Arrays, masks, missing data, 2D images, units, constants and cosmology | ~2.5 h |
-| 3 | Catalogues and Data *(coming soon)* | pandas, Astropy tables, FITS files, querying archives, cleaning and cross-matching | ~3 h |
+| 3 | [Catalogues and Data](03-Catalogues-and-Data.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/03-Catalogues-and-Data.ipynb) | pandas, missing data and flags, CSV, text and FITS files, merging, FITS images and WCS, astroquery and cross-matching, using real ZFOURGE data | ~3 h |
 | 4 | Plotting for Astronomy *(coming soon)* | Matplotlib, log axes, colour-magnitude diagrams, spectra and images | ~3 h |
 | 5 | Statistics and Fitting *(coming soon)* | Robust statistics, uncertainties, curve fitting and χ² | ~3 h |
 | 6 | Putting It Together *(coming soon)* | Short galaxy evolution examples | ~2 h |
 
 Altogether it's about a day and a half to two days of full-time work.
+
+From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where it comes from.
 
 Every notebook pairs worked examples with exercises. Most exercises have a check cell so you can confirm your answer, and every exercise has a hidden solution you can open once you've had a go.
 
