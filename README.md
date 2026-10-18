@@ -16,7 +16,7 @@ Work through them in order. Each one is self-contained, so you can start any not
 | Part | Notebook | Topic | Time |
 |------|----------|-------|------|
 | 1 | [Python Basics](01-Python-Basics.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/01-Python-Basics.ipynb) | Variables, data types, strings, lists, dictionaries, conditions, loops, functions and errors | ~3 h |
-| 2 | NumPy and Astropy *(coming soon)* | Arrays, vectorised maths, units, constants and cosmology | ~2 h |
+| 2 | [NumPy and Astropy](02-NumPy-and-Astropy.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/02-NumPy-and-Astropy.ipynb) | Arrays, masks, missing data, 2D images, units, constants and cosmology | ~2.5 h |
 | 3 | Catalogues and Data *(coming soon)* | pandas, Astropy tables, FITS files, querying archives, cleaning and cross-matching | ~3 h |
 | 4 | Plotting for Astronomy *(coming soon)* | Matplotlib, log axes, colour-magnitude diagrams, spectra and images | ~3 h |
 | 5 | Statistics and Fitting *(coming soon)* | Robust statistics, uncertainties, curve fitting and χ² | ~3 h |
