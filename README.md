@@ -4,6 +4,18 @@
 
 A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for new research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS). That said, no astrophysics background is assumed.
 
+## New to Python? Start Here
+
+Before you open Part 1, read the **[Getting Started guide](GETTING_STARTED.md)** (also available as a [printable PDF](Getting-Started.pdf)). It takes about 15 minutes and covers:
+
+- What notebooks, cells, Colab and the other terms you'll meet actually mean
+- Opening your first notebook in Google Colab and saving your work
+- Running cells, useful shortcuts, and the one rule that causes most confusion
+- How to get the most out of the exercises
+- What to do when something goes wrong, and how to ask for help
+- Step-by-step setup of Python on your own computer
+- A one-page Python cheat sheet
+
 ## Notebooks
 
 Each notebook is self-contained, so you can start any without running the previous ones. It's recommended you complete in the order provided here. 
@@ -31,8 +43,8 @@ Before you start, go to *File → Save a copy in Drive*, otherwise your work won
 
 For Honours, MPhil or PhD, you're encouraged to set up Python locally. We recommend [Miniforge](https://github.com/conda-forge/miniforge), a free, lightweight installer for Python and the `conda` package manager.
 
-1. Install Miniforge by following the instructions below.
-2. On Linux or MaxOS, open a terminal (on Windows, use *Miniforge Installer* from the link above) and create an environment for your work:
+1. Install Miniforge. Step-by-step instructions for Windows, macOS and Linux are in [Section 7 of the Getting Started guide](GETTING_STARTED.md#7-setting-up-python-on-your-own-computer).
+2. On Linux or macOS, open a terminal (on Windows, open *Miniforge Prompt* from the Start menu) and create an environment for your work:
 
    ```bash
    conda create -n qarg python=3.12
