@@ -2,11 +2,11 @@
 
 <img src="Images/qarg_bw_dark.png" alt="QUT Astrophysics Research Group" width="500" />
 
-A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for new research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS). That said, no astrophysics background is assumed.
+A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS).
 
 ## Notebooks
 
-Each notebook is self-contained, so you can start any without running the previous ones. It's recommended you complete in the order provided here. 
+Each notebook is self-contained, so you can start any without running the previous ones. That said, it's recommended you complete in the order provided here. 
 
 | Part | Notebook | Topic | Time |
 |------|----------|-------|------|
@@ -17,22 +17,22 @@ Each notebook is self-contained, so you can start any without running the previo
 | 5 | [Statistics and Fitting](05-Statistics-and-Fitting.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/05-Statistics-and-Fitting.ipynb) | Robust statistics and photo-z quality, error propagation, weighted means and tension, curve fitting and χ², measuring H₀ and dark energy with Pantheon+ supernovae, KS tests and the bootstrap | ~3 h |
 | 6 | [Putting It Together](06-Putting-It-Together.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/06-Putting-It-Together.ipynb) | Three short projects (the stellar mass function, large-scale structure in CDFS, and the ages of galaxies) plus tips on working in the group | ~2 h |
 
-From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where it comes from. Every notebook pairs worked examples with exercises. Most exercises have a check cell so you can confirm your answer, and every exercise has a hidden solution you can open once you've had a go.
+From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where this comes from. Every notebook pairs worked examples with exercises, which have hidden solutions so you can check your working as you go.
 
 ## Running the Notebooks
 
-### Google Colab (recommended to start)
+### Google Colab
 
-Click an "Open in Colab" button above, which runs in your browser with nothing to install (requires a Google account).
+If this is all new to you, it's recommended you start here by clicking an "Open in Colab" button above, which runs in your browser with nothing to install (requires a Google account).
 
-Before you start, go to *File → Save a copy in Drive*, otherwise your work won't be saved.
+Before you start, go to *File → Save a copy in Drive*, otherwise your work won't be saved. That said, it's highly encouraged you soon move to a local environment as below.
 
 ### On your own computer
 
 For Honours, MPhil or PhD, you're encouraged to set up Python locally. We recommend [Miniforge](https://github.com/conda-forge/miniforge), a free, lightweight installer for Python and the `conda` package manager.
 
 1. Install Miniforge by following the instructions below.
-2. On Linux or MaxOS, open a terminal (on Windows, use *Miniforge Installer* from the link above) and create an environment for your work:
+2. On Linux or MaxOS, open a terminal (on Windows, you can try the *Miniforge Installer* from the link above) and create an environment for your work:
 
    ```bash
    conda create -n qarg python=3.12
@@ -70,6 +70,6 @@ Colab has most of these already, and any notebook that needs something extra ins
 
 ## Getting Help
 
-- Read the error message, then search it. Section 10 of Part 1 covers this in more detail.
-- Ask others in the group. Everyone has been stuck on the same things!
+- Read the error message, then ~~Google~~ DuckDuckGo search it. Section 10 of Part 1 covers this in more detail.
+- Ask others in the group. Everyone else has likely been stuck on the same things!
 - Talk to your supervisor, and check the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966) for group resources.
