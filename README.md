@@ -2,23 +2,23 @@
 
 <img src="Images/qarg_bw_dark.png" alt="QUT Astrophysics Research Group" width="500" />
 
-A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for new research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS). That said, no astrophysics background is assumed.
+A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS).
 
 ## New to Python? Start Here
 
 Before you open Part 1, read the **[Getting Started guide](GETTING_STARTED.md)** (also available as a [printable PDF](Getting-Started.pdf)). It takes about 15 minutes and covers:
 
-- What notebooks, cells, Colab and the other terms you'll meet actually mean
+- What notebooks, cells, and the other terms you'll come across actually mean
 - Opening your first notebook in Google Colab and saving your work
-- Running cells, useful shortcuts, and the one rule that causes most confusion
-- How to get the most out of the exercises
+- Running cells, useful shortcuts, and tips to overcome confusion
+- How to get complete exercises and check your answers
 - What to do when something goes wrong, and how to ask for help
 - Step-by-step setup of Python on your own computer
 - A one-page Python cheat sheet
 
 ## Notebooks
 
-Each notebook is self-contained, so you can start any without running the previous ones. That said, it's recommended you complete in the order provided here. 
+Each notebook is self-contained, so you can start any without running the previous ones. That said, it's recommended you complete in the order provided below. 
 
 | Part | Notebook | Topic | Time |
 |------|----------|-------|------|
