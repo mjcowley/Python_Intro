@@ -11,7 +11,7 @@ Before you open Part 1, read the **[Getting Started guide](GETTING_STARTED.md)**
 - What notebooks, cells, and the other terms you'll come across actually mean
 - Opening your first notebook in Google Colab and saving your work
 - Running cells, useful shortcuts, and tips to overcome confusion
-- How to get complete exercises and check your answers
+- How to complete exercises and check your answers
 - What to do when something goes wrong, and how to ask for help
 - Step-by-step setup of Python on your own computer
 - A one-page Python cheat sheet
