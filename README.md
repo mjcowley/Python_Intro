@@ -85,3 +85,15 @@ Colab has most of these already, and any notebook that needs something extra ins
 - Read the error message, then ~~Google~~ DuckDuckGo search it. Section 10 of Part 1 covers this in more detail.
 - Ask others in the group. Everyone else has likely been stuck on the same things!
 - Talk to your supervisor, and check the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966) for group resources.
+
+## Licence and credits
+
+© 2026 Queensland University of Technology. Created by Dr Michael Cowley, QUT Astrophysics Research Group (QARG).
+
+* **Teaching materials** (the text of the notebooks and the Getting Started guide) are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE).
+* **Code** (the code cells in the notebooks) is licensed under the [MIT License](LICENSE-CODE).
+* **Not covered by these licences:** the QUT, QARG and Google Colab logos, and the survey data in `data/` (credited in [data/README.md](data/README.md)), which stay under their owners' terms.
+
+You're welcome to reuse and adapt these materials. Please credit them as: *Introduction to Python for Astronomy by Michael Cowley, QUT Astrophysics Research Group, © Queensland University of Technology, CC BY 4.0, github.com/mjcowley/Python_Intro*.
+
+**Use of AI:** These materials were developed by Dr Michael Cowley with the assistance of Claude, an AI model made by Anthropic, which helped draft the notebooks, exercises and guide. All content was directed, reviewed and edited by the author, who takes responsibility for its accuracy.
