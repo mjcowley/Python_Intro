@@ -2,7 +2,7 @@
 
 <img src="Images/qarg_bw_dark.png" alt="QUT Astrophysics Research Group" width="500" />
 
-A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE and SDSS).
+A set of hands-on Python training notebooks for new students joining the QUT Astrophysics Research Group [(QARG)](https://research.qut.edu.au/qutastrophysics/). They're written for research students who are either new to or need a refresher in Python. The group works on galaxy evolution and cosmology, so the examples use what you'll meet in your project (e.g., redshifts, magnitudes, fluxes, sky coordinates and galaxy catalogues from surveys like ZFOURGE).
 
 ## New to Python? Start Here
 
