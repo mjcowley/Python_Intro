@@ -4,13 +4,13 @@ Real survey data used in the training notebooks. The notebooks download these au
 
 | File | Format | Contents | Used in |
 |------|--------|----------|---------|
-| `zfourge_cdfs.csv` | CSV | ZFOURGE CDFS photometric catalogue: positions, FourStar $K_s$ flux, flags and spectroscopic redshifts (30,911 objects) | Parts 3, 4 |
-| `zfourge_cdfs_eazy.fits` | FITS binary table | EAZY photometric redshifts and rest-frame U, V and J fluxes for the same objects | Parts 3, 4 |
-| `zfourge_cdfs.fout` | Whitespace-delimited text | FAST stellar population fits (stellar mass, star formation rate, age, dust) for the same objects | Parts 3, 4 |
+| `zfourge_cdfs.csv` | CSV | ZFOURGE CDFS photometric catalogue: positions, FourStar $K_s$ flux, flags and spectroscopic redshifts (30,911 objects) | Parts 3 to 6 |
+| `zfourge_cdfs_eazy.fits` | FITS binary table | EAZY photometric redshifts and rest-frame U, V and J fluxes for the same objects | Parts 3 to 6 |
+| `zfourge_cdfs.fout` | Whitespace-delimited text | FAST stellar population fits (stellar mass, star formation rate, age, dust) for the same objects | Parts 3 to 6 |
 | `gaia_dr3_cdfs.csv` | CSV | Gaia DR3 sources within 12 arcmin of the CDFS centre (440 sources) | Parts 3, 4 |
 | `legacy_cdfs_r.fits` | FITS image | 700 × 700 pixel (3 × 3 arcmin) r-band cutout of CDFS at 0.262 arcsec per pixel, in nanomaggies | Parts 3, 4 |
 | `swire_s0_template.sed` | Whitespace-delimited text | SWIRE S0 (lenticular) galaxy template: wavelength in Å and normalised $F_\lambda$, from 0.1 µm to 5 mm | Part 4 |
-| `pantheon_plus.csv` | CSV | Pantheon+ type Ia supernovae: redshift, distance modulus (SH0ES calibration) and its diagonal uncertainty, calibrator flag and host mass (1,701 light curves of 1,543 supernovae) | Part 5 |
+| `pantheon_plus.csv` | CSV | Pantheon+ type Ia supernovae: redshift, distance modulus (SH0ES calibration) and its diagonal uncertainty, calibrator flag and host mass (1,701 light curves of 1,550 supernovae) | Part 5 |
 
 ## Notes
 
