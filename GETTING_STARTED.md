@@ -75,6 +75,8 @@ The marker next to a code cell tells you its state:
 
 When things get confusing, start fresh: *Runtime → Restart session*, then *Runtime → Run before* from the cell you were working on.
 
+**Run cells one at a time.** Work through each notebook a cell at a time, in order, reading as you go. *Run all* and *Run before* are only for getting back to where you were, for example after Colab disconnects. They're not a way to work through the material.
+
 **Cells that stop on purpose.** Colab stops running as soon as a cell fails. Part 1 has three cells in its *Errors and Debugging* section that fail deliberately, so *Run all* and *Run before* stop at each of them. That's expected: click the cell after the one that failed and choose *Runtime → Run after* to carry on. Check cells for exercises you haven't done yet don't stop anything. They just print "Not done yet".
 
 ### Useful Colab shortcuts
