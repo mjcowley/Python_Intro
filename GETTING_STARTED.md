@@ -75,6 +75,8 @@ The marker next to a code cell tells you its state:
 
 When things get confusing, start fresh: *Runtime → Restart session*, then *Runtime → Run before* from the cell you were working on.
 
+**Cells that stop on purpose.** Colab stops running as soon as a cell fails. Part 1 has three cells in its *Errors and Debugging* section that fail deliberately, so *Run all* and *Run before* stop at each of them. That's expected: click the cell after the one that failed and choose *Runtime → Run after* to carry on. Check cells for exercises you haven't done yet don't stop anything. They just print "Not done yet".
+
 ### Useful Colab shortcuts
 
 On a Mac, use **Cmd** wherever this says **Ctrl**. For the two-step shortcuts, press **Ctrl + M**, let go, then press the letter.
@@ -132,6 +134,7 @@ Errors are a normal part of programming. Everyone gets them all the time. **Read
 | `SyntaxError` or `IndentationError` | The code isn't valid Python: a missing bracket, quote, colon, or mismatched spaces | Look at the line the arrow points to, and the line just above it. |
 | `TypeError` | An operation got the wrong kind of value, like adding text to a number | Use `print(type(x))` to check what your variables actually are. |
 | `KeyError: 'column'` | That column or dictionary key doesn't exist | Print `df.columns` to see the real names. Check spelling and capitals. |
+| A check cell prints "Not done yet" or "Not quite" | The exercise above it isn't finished, or the answer isn't right yet | Read the message for a hint, fix your answer, and run the check cell again. |
 | A cell shows `[*]` for a long time | It's still running, or it's stuck | Wait a little. If it's stuck, use *Runtime → Interrupt execution*. |
 | "Runtime disconnected" or everything says "not defined" | Colab disconnected and the kernel forgot your variables | Reconnect, then *Runtime → Run before* from where you were. |
 | A data download fails | A network problem, or the file isn't available | Check your internet connection, then re-run the cell. If it keeps failing, ask in the group. |
