@@ -4,8 +4,6 @@
 
 This guide is for you if you're new to Python, or haven't used it in a while. Read it before you open Part 1. It takes about 15 minutes, and it'll save you a lot of confusion later.
 
-A printable PDF copy of this guide is in the repository as [`Getting-Started.pdf`](Getting-Started.pdf).
-
 **Contents**
 
 1. [Words you'll meet](#1-words-youll-meet)

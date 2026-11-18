@@ -6,7 +6,7 @@ A set of hands-on Python training notebooks for new students joining the QUT Ast
 
 ## New to Python? Start Here
 
-Before you open Part 1, read the **[Getting Started guide](GETTING_STARTED.md)** (also available as a [printable PDF](Getting-Started.pdf)). It takes about 15 minutes and covers:
+Before you open Part 1, read the **[Getting Started guide](GETTING_STARTED.md)**. It takes about 15 minutes and covers:
 
 - What notebooks, cells, and the other terms you'll come across actually mean
 - Opening your first notebook in Google Colab and saving your work
@@ -29,7 +29,7 @@ Each notebook is self-contained, so you can start any without running the previo
 | 5 | [Statistics and Fitting](05-Statistics-and-Fitting.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/05-Statistics-and-Fitting.ipynb) | Robust statistics and photo-z quality, error propagation, weighted means and tension, curve fitting and χ², measuring H₀ and dark energy with Pantheon+ supernovae, KS tests and the bootstrap | ~3 h |
 | 6 | [Putting It Together](06-Putting-It-Together.ipynb) <br> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mjcowley/Python_Intro/blob/main/06-Putting-It-Together.ipynb) | Three short projects (the stellar mass function, large-scale structure in CDFS, and the ages of galaxies) plus tips on working in the group | ~2 h |
 
-From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where this comes from. Every notebook pairs worked examples with exercises, which have hidden solutions so you can check your working as you go.
+From Part 3 onwards the notebooks use real survey data, which they download automatically. See the [data README](data/README.md) for where this comes from. The notebooks download their own copies of the data from this repository, so they don't depend on the original archives being online. The one exception is Part 3's demonstration of querying an archive live: if a service such as VizieR is down, that cell prints a message and the notebook carries on. If GitHub itself can't be reached, the downloads will fail, so try again later. Every notebook pairs worked examples with exercises, which have hidden solutions so you can check your working as you go.
 
 ## Running the Notebooks
 
@@ -71,7 +71,7 @@ If you'd rather use an editor, [VS Code](https://code.visualstudio.com/) and [VS
 
 ### Supercomputers (HPC)
 
-Some projects need more computing power than a laptop. The group has access to QUT's eResearch HPC and to Swinburne's [OzSTAR](https://supercomputing.swin.edu.au/) supercomputer. You'll find details on how to get access on the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966). Talk to your supervisor first about whether your project needs it.
+Some projects need more computing power than a laptop. The group has access to QUT's eResearch HPC and to Swinburne's [OzSTAR](https://supercomputing.swin.edu.au/) supercomputer. You'll find details on how to get access on the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966/pages/qut-hpc-access?module_item_id=1644681). Talk to your supervisor first about whether your project needs it.
 
 ## Requirements
 
@@ -82,7 +82,7 @@ Colab has most of these already, and any notebook that needs something extra ins
 
 ## Getting Help
 
-- Read the error message, then ~~Google~~ DuckDuckGo search it. Section 10 of Part 1 covers this in more detail.
+- Read the error message, then ~~Google~~ DuckDuckGo search it. [Section 10 of Part 1](01-Python-Basics.ipynb) (*Errors and Debugging*) covers this in more detail.
 - Ask others in the group. Everyone else has likely been stuck on the same things!
 - Talk to your supervisor, and check the [QARG Canvas site](https://canvas.qut.edu.au/courses/13966) for group resources.
 
@@ -96,4 +96,4 @@ Colab has most of these already, and any notebook that needs something extra ins
 
 You're welcome to reuse and adapt these materials. Please credit them as: *Introduction to Python for Astronomy by Michael Cowley, QUT Astrophysics Research Group, © Queensland University of Technology, CC BY 4.0, github.com/mjcowley/Python_Intro*.
 
-**Use of AI:** These materials were developed by Dr Michael Cowley with the assistance of Claude, an AI model made by Anthropic, which helped draft the notebooks, exercises and guide. All content was directed, reviewed and edited by the author, who takes responsibility for its accuracy.
+**Use of AI:** These materials were developed by Dr Michael Cowley with the assistance of Claude, an AI model made by Anthropic.
